@@ -1,4 +1,4 @@
 ---
-title: 'Semua tentang personal post'
-description: 'Personal artikel'
+title: 'Personal'
+description: 'Semua tentang Personal artikel'
 ---
