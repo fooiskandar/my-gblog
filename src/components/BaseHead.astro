@@ -1,8 +1,8 @@
 ---
 import { getImage } from 'astro:assets'
-import brandSrc from '@images/brand_logo.jpeg'
-import faviconSvgSrc from '@images/favicon_icon.svg'
-import faviconSrc from '@images/favicon_icon.png'
+import brandSrc from '@images/logo.png'
+import faviconSvgSrc from '@images/favicon.svg'
+import faviconSrc from '@images/favicon.png'
 import { SEO, SITE } from '@/config'
 
 interface Props {
@@ -63,7 +63,7 @@ if (!socialImage.startsWith('http')) {
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="id" />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:type" content="website" />
 <meta property="og:title" content={ogTitle} />
