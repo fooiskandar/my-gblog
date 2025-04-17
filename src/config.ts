@@ -3,9 +3,9 @@ import type { NavigationLink, Site } from './types.ts'
 export const SITE: Site = {
     author: 'FoO Iskandar',
     url: 'https://godruoyi.com',
-    title: 'Iskandar PRO MK',
-    description: 'Godruoyi\'s personal blog, I enjoy the process of building something using any technology stack',
-    shortDescription: '',
+    title: 'FoO Iskandar WEBID',
+    description: 'Personal blog yang lemah dalam SEO',
+    shortDescription: 'Personal blog',
 }
 
 export const NavigationLinks: NavigationLink[] = [
@@ -95,7 +95,7 @@ export const SEO = {
     structuredData: {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        'inLanguage': 'en-US',
+        'inLanguage': 'id',
         '@id': SITE.url,
         'url': SITE.url,
         'name': SITE.title,
