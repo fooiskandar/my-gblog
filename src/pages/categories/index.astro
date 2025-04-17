@@ -22,20 +22,20 @@ const postMap: Map<string, CollectionEntry<'posts'>[]> = (await getCollection('p
 }, new Map<string, CollectionEntry<'posts'>[]>())
 
 const categories = await getCollection('categories')
-const description = 'Here are some categories that godruoyi is interested in, including Laravel, Golang, and her life.'
+const description = 'Daftat Kategori yang di bahas di sini.'
 const URL = Astro.url.href
 ---
 
 <BaseLayout
-    title="All Categories"
+    title="Daftar kategori"
     description={description}
     structuredData={{
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        'inLanguage': 'en-US',
+        'inLanguage': 'id',
         '@id': URL,
         'url': URL,
-        'name': `All Categories - ${SITE.title}`,
+        'name': `Daftar Kategori - ${SITE.title}`,
         'description': description,
         'isPartOf': {
             '@type': 'WebSite',
@@ -46,7 +46,7 @@ const URL = Astro.url.href
     }}
 
 >
-    <MainSection title="Categories" subTitle={description} />
+    <MainSection title="Kategori" subTitle={description} />
 
     <section class="mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:pt-10 lg:py-14 2xl:max-w-full">
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-10">
