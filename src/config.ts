@@ -60,8 +60,8 @@ export const Settings = {
         giscus: {
             repo: 'fooiskandar/my-gblog',
             repoId: 'R_kgDOOQiHBw',
-            category: 'General',
-            categoryId: 'DIC_kwDOOQiHB84CpM4H',
+            category: 'Announcements',
+            categoryId: 'DIC_kwDOOQiHB84CpM4G',
             darkThem: 'noborder_gray',
             lightThem: 'light',
         },
