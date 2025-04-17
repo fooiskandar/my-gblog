@@ -2,7 +2,7 @@ import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
     author: 'FoO Iskandar',
-    url: 'https://godruoyi.com',
+    url: 'https://fooiskandar.web.id',
     title: 'FoO Iskandar WEBID',
     description: 'Personal blog yang lemah dalam SEO',
     shortDescription: 'Personal blog',
@@ -23,7 +23,7 @@ export const FooterLinks = [
             { name: 'Posts', url: '/posts' },
             { name: 'Timeline', url: '/timeline' },
             { name: 'Categories', url: '/categories' },
-            { name: 'About Me', url: '/posts/about-godruoyi' },
+            { name: 'About Me', url: '#' },
         ],
     },
     {
@@ -58,10 +58,10 @@ export const Settings = {
         // please visit https://giscus.app/ to learn how to configure it.
         // You can also check out this article: https://liruifengv.com/posts/add-comments-to-astro/.
         giscus: {
-            repo: 'godruoyi/gblog',
-            repoId: 'MDEwOlJlcG9zaXRvcnkxMjcyODI0NzA',
-            category: 'Announcements',
-            categoryId: 'DIC_kwDOB5YtJs4CfZnX',
+            repo: 'fooiskandar/my-gblog',
+            repoId: 'R_kgDOOQiHBw',
+            category: 'General',
+            categoryId: 'DIC_kwDOOQiHB84CpM4H',
             darkThem: 'noborder_gray',
             lightThem: 'light',
         },
