@@ -15,12 +15,12 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
 
 <BaseLayout>
     <HeroSection
-        title=`Hello, <span class="text-yellow-500 dark:text-yellow-400">GBlog</span>`
-        subTitle="Hi, Welcome to Gblog, gblog is an open-source, simple, and beautiful blog built with Astro."
-        primaryBtn="Explore Posts"
+        title=`Hello, <span class="text-yellow-500 dark:text-yellow-400">People\'s</span>`
+        subTitle="Hi, Selamat datang di FoO Iskandar WEBID, berharap semua reader nyaman membaca artikel-artikel di blog saya ini."
+        primaryBtn="Jelajahi artikel"
         primaryBtnURL="/posts"
         src={blogHeroImg}
-        alt="godruoyi's blog"
+        alt="FoO Iskandar WEBID blogs"
     />
 
     <FeaturesSection />
@@ -28,10 +28,10 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
     <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full">
         <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
             <h2 class="text-3xl font-bold text-neutral-800 dark:text-neutral-200 md:text-4xl md:leading-tight">
-                Latest Post
+                Latest Artikel
             </h2>
             <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
-                Always want to write something, but rarely actually do it
+                Selalu ingin menulis sesuatu, tapi jarang melakukannya
             </p>
         </div>
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -44,8 +44,8 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
     </section>
 
     <HeroSectionAlt
-        title="Fellow me on GitHub"
-        subTitle="I love open source and have some small tools on my GitHub. You can get me more by checking out my code"
-        url="https://github.com/godruoyi/gblog"
+        title="Fellow me on X"
+        subTitle="Suka dan selalu di share aetikelnya di X"
+        url="https://x.com/fooiskandar05"
     />
 </BaseLayout>
