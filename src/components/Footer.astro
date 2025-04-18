@@ -3,6 +3,7 @@ import BrandLogo from '@components/ui/logos/BrandLogo.astro'
 import Image from '@components/ui/images/Image.astro'
 import footerBanner from '@images/footer.png'
 import { FooterLinks, SITE } from '@/config'
+const currentYear = new Date().getFullYear()
 ---
 
 <footer class="w-full bg-neutral-300 dark:bg-neutral-900">
@@ -50,7 +51,7 @@ import { FooterLinks, SITE } from '@/config'
 
         <div class="flex items-center text-center justify-center">
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-                © <span id="current-year">2025</span> {SITE.title}
+                &copy; <span <span id="current-year">{currentYear}</span> {SITE.title}<br>All Rights Reserved.
             </p>
         </div>
     </div>
