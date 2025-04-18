@@ -20,10 +20,11 @@ export const FooterLinks = [
     {
         section: 'Blog',
         links: [
-            { name: 'Posts', url: '/posts' },
+            { name: 'Artikel', url: '/posts' },
             { name: 'Timeline', url: '/timeline' },
-            { name: 'Categories', url: '/categories' },
-            { name: 'About Me', url: '/about' },
+            { name: 'Kategori', url: '/categories' },
+            { name: 'Tentang Kami', url: '/about' },
+            { name: 'Kontak', url: '/contact' },
         ],
     },
     {
