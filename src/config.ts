@@ -12,8 +12,9 @@ export const NavigationLinks: NavigationLink[] = [
     { name: 'Artikel', url: '/posts' },
     { name: 'Kategori', url: '/categories' },
     { name: 'Timeline', url: '/timeline' },
-    { name: 'Tentang Kami', url: '/about' },
     { name: 'Blogroll', url: '/friends' },
+    { name: 'Tentang Kami', url: '/about' },
+    { name: 'Kontak', url: '/contact' },
 ]
 
 export const FooterLinks = [
@@ -40,7 +41,7 @@ export const FooterLinks = [
 export const Settings = {
     GoogleAnalytics: {
         enable: false,
-        id: 'G-TKQ4L3ZDSF',
+        id: 'G-XPFK4QHTSJ',
     },
 
     // See https://github.com/umami-software/umami
