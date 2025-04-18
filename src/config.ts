@@ -9,11 +9,11 @@ export const SITE: Site = {
 }
 
 export const NavigationLinks: NavigationLink[] = [
-    { name: 'Posts', url: '/posts' },
-    { name: 'Category', url: '/categories' },
+    { name: 'Artikel', url: '/posts' },
+    { name: 'Kategori', url: '/categories' },
     { name: 'Timeline', url: '/timeline' },
-    { name: 'About', url: '/about' },
-    { name: 'Friends', url: '/friends' },
+    { name: 'Tentang Kami', url: '/about' },
+    { name: 'Blogroll', url: '/friends' },
 ]
 
 export const FooterLinks = [
