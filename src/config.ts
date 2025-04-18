@@ -12,7 +12,7 @@ export const NavigationLinks: NavigationLink[] = [
     { name: 'Posts', url: '/posts' },
     { name: 'Category', url: '/categories' },
     { name: 'Timeline', url: '/timeline' },
-    { name: 'About', url: '/posts/gblog' },
+    { name: 'About', url: '/about' },
     { name: 'Friends', url: '/friends' },
 ]
 
@@ -23,7 +23,7 @@ export const FooterLinks = [
             { name: 'Posts', url: '/posts' },
             { name: 'Timeline', url: '/timeline' },
             { name: 'Categories', url: '/categories' },
-            { name: 'About Me', url: '#' },
+            { name: 'About Me', url: '/about' },
         ],
     },
     {
@@ -31,7 +31,7 @@ export const FooterLinks = [
         links: [
             { name: 'RSS', url: '/rss.xml' },
             { name: 'Site Map', url: '/sitemap-index.xml' },
-            { name: 'Twitter', url: 'https://x.com/godruoyi' },
+            { name: 'Twitter', url: 'https://x.com/fooiskandar05' },
         ],
     },
 ]
