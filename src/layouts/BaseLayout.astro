@@ -5,6 +5,7 @@ import Header from '@components/Header.astro'
 import GoogleAnalytics from '@components/support/GoogleAnalytics.astro'
 import UmamiAnalytics from '@components/support/UmamiAnalytics.astro'
 import { SITE } from '@/config'
+import Analytics from '@vercel/analytics/
 
 interface Props {
     title: string
@@ -48,6 +49,7 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
         </script>
         <GoogleAnalytics />
         <UmamiAnalytics />
+        <Analytics/>
     </head>
     <body class="bg-neutral-200 selection:bg-orange-400 selection:text-neutral-700 dark:bg-neutral-800">
         <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
