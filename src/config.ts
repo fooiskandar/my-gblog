@@ -2,9 +2,9 @@ import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
     author: 'FoO Iskandar',
-    url: 'https://fooiskandar.web.id',
-    title: 'FoO Iskandar WEBID',
-    description: 'Personal blog yang lemah dalam SEO',
+    url: 'https://fooiskandar.pro.mk',
+    title: 'FoO Iskandar PRO MK.',
+    description: 'Personal blog ngawur dan ngasal.',
     shortDescription: 'Personal blog',
 }
 
