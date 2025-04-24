@@ -7,6 +7,11 @@ export default {
     ],
     darkMode: 'class',
     theme: {
+        extend: {
+      fontFamily: {
+        sans: ["Lato", "sans-serif", ...defaultTheme.fontFamily.sans],
+      },
+    },
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
